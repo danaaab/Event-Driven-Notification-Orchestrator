@@ -16,7 +16,7 @@ This project is a small Node.js/TypeScript service that manages user notificatio
 
 # 1. Clone the repo
 
-git clone https://github.com/<danaaab>/Event-Driven Notification Orchestrator.git
+git clone https://github.com/danaaab/Event-Driven-Notification-Orchestrator.git      
 cd Event-Driven Notification Orchestrator
 
 # 2. Install dependencies
