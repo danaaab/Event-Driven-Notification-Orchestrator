@@ -27,8 +27,8 @@ npm run dev
 
 Server runs at: http://localhost:3000
 
-API Endpoints
-# 1. Set Preferences
+# API Endpoints
+1. Set Preferences
 POST /preferences/:userId
 
 Body
@@ -40,10 +40,10 @@ Body
   }
 }
 
-# 2. Get Preferences
+2. Get Preferences
 GET /preferences/:userId
 
-# 3. Process Event
+3. Process Event
 POST /events
 
 Body
@@ -57,16 +57,16 @@ Body
 
 Responses
 
-# Notification allowed
+Notification allowed
 { "decision": "PROCESS_NOTIFICATION" }
 
-# Blocked by DND
+Blocked by DND
 { "decision": "DO_NOT_NOTIFY", "reason": "DND_ACTIVE" }
 
-# Blocked by user preference
+Blocked by user preference
 { "decision": "DO_NOT_NOTIFY", "reason": "USER_UNSUBSCRIBED_FROM_EVENT" }
 
-# No preferences set
+No preferences set
 { "decision": "DO_NOT_NOTIFY", "reason": "NO_PREFERENCES" }
 
 Example Flow
